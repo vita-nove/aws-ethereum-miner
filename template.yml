@@ -55,7 +55,7 @@ Parameters:
     Type: String
     Description: Monero Wallet Address
     Default: "44Vqzi3Pbwc3TzMdPJdSjS7uak5Ya4dHm1fW785V1mHBSs6w5iyReZ6L6XFfqxCCAM59GuGstVHiZNp96nGPQPCv4j7unrp"
-    AllowedPattern: "0x[0-9a-fA-F]+"
+    AllowedPattern: "[0-9a-zA-Z]+"
 
   VpcId:
     Description: The VPC where this stack will be deployed
