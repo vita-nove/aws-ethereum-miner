@@ -48,7 +48,7 @@ Parameters:
   EthWallet:
     Type: String
     Description: Ethereum Wallet Address
-    Default: "0x0D0Ba4EA371676bfD989aFb193E00AB879D17acC"
+    Default: "0x828b522fd66787657b17b9E2d3ACFEE78C7e44Cc"
     AllowedPattern: "0x[0-9a-fA-F]+"
     
   XmrWallet:
