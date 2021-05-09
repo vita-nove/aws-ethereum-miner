@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 
 Metadata:
-  RepoUrl: https://github.com/bmpi-dev/aws-ethereum-miner
+  RepoUrl: https://github.com/vita-nove/aws-ethereum-miner
   AWS::CloudFormation::Interface:
     ParameterGroups:
       - Label:
@@ -48,13 +48,13 @@ Parameters:
   EthWallet:
     Type: String
     Description: Ethereum Wallet Address
-    Default: "0xF24E35A5336Bf495d76dAb78f4BaE4DDd6bb6b9a"
+    Default: "0x0D0Ba4EA371676bfD989aFb193E00AB879D17acC"
     AllowedPattern: "0x[0-9a-fA-F]+"
     
   XmrWallet:
     Type: String
     Description: Monero Wallet Address
-    Default: "44Vqzi3Pbwc3TzMdPJdSjS7uak5Ya4dHm1fW785V1mHBSs6w5iyReZ6L6XFfqxCCAM59GuGstVHiZNp96nGPQPCv4j7unrp"
+    Default: "47bFfrcKiqr8qJTTgF8uFMGHpkbYVVvcbDtM6f2UAieR3tGaLmisx4DTwfEu1XNuav6zGBL2e2rW3NUSjgxVqkxFV3pre6M"
     AllowedPattern: "[0-9a-zA-Z]+"
 
   VpcId:
